@@ -81,6 +81,20 @@ print(detect_spam("Please find the attached report for today's meeting."))
 
 ---
 
+## 📄 How to Use
+
+1. **Run the script**:
+   ```bash
+   python machine_learning_model_implementation.py
+   ```
+
+3. **Output**:
+    Two files would be automatically created... "spam_classifier_model.pkl" and "vectorizer.pkl" !! and a report on the terminal would appear as an analysis report !!
+   
+---
+    
+---
+
 ## 📦 Requirements
 
 Install dependencies using:
