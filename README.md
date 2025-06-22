@@ -90,6 +90,7 @@ print(detect_spam("Please find the attached report for today's meeting."))
 
 3. **Output**:
     Two files would be automatically created... "spam_classifier_model.pkl" and "vectorizer.pkl" !! and a report on the terminal would appear as an analysis report !!
+    First A Bar-Graph Picture Report will appear and after closing it, U'd get a full written report on your terminal.
    
 ---
     
