@@ -6,7 +6,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix, classification_report
 import joblib
-import time
 import os
 
 # To make sure this file Runs in the current folder on double clicking this file
@@ -120,7 +119,7 @@ def detect_spam(email_text):
     prediction = loaded_model.predict(email_text_vec)
     return "Spam!" if prediction[0] == 1 else "Not Spam!"
 
-time.sleep(2)
+input("Press 'Enter' to exit...")
 
 ## Example usage
 # print(detect_spam("Congratulations! You've won a lottery! Claim your prize now."))
