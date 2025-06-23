@@ -7,6 +7,10 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix, classification_report
 import joblib
 import time
+import os
+
+# To make sure this file Runs in the current folder on double clicking this file
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Importing the dataset_csv file
 
