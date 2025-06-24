@@ -1,0 +1,16 @@
+if u want to train it with ur own dataset!
+
+just paste your dataset file in the curent directory and also make sure to change the pre-written dataset file name in the code {line 16}
+
+then edit the data[_,_] according to ur dataset!! {line 17}
+
+and accordingly , u'll need to modify the code with ur dataset 
+
+
+
+
+
+## If u want to verify if the model learns from my file or not... just uncomment the last two lines of the code and run the code
+u'll then get the results as spam or not_spam
+
+## Note - U can modify the examples to check if it works or not!! 
